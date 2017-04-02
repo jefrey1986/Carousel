@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#carousel {
+	width: 400px;
+	height: 300px;
+	border: 5px solid;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
+.container {
+	width: 2000px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+}
+.picture {
+	width: 400px;
+	height: 300px;
+	background-size: cover;
+	object-fit: cover;
+}
+
+.image1 {
+	background-image: url("https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg");
+}
+.image2 {
+	background-image: url("https://static.pexels.com/photos/121714/pexels-photo-121714.jpeg");
+}
+.image3 {
+	background-image: url("https://static.pexels.com/photos/365631/pexels-photo-365631.jpeg");
+}
+.image4 {
+	background-image: url("https://static.pexels.com/photos/66421/pexels-photo-66421.jpeg");
+}
+.image5 {
+	background-image: url("https://static.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg");
+}
