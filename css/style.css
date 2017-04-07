@@ -16,12 +16,14 @@
 	height: 300px;
 	margin: 0 auto;
 	padding: 0;
+	display: flex;
 }
 .picture {
 	width: 400px;
 	height: 300px;
 	background-size: cover;
 	object-fit: cover;
+	list-style-type: none;
 }
 
 .image1 {
@@ -38,4 +40,14 @@
 }
 .image5 {
 	background-image: url("https://static.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg");
+}
+
+.navButton {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+button {
+	padding: 10px;
+	margin: 15px;
 }
