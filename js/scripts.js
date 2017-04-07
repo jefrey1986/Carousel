@@ -3,16 +3,6 @@ $(function(){
 	var leftButton = $("#left");
 	var rightButton = $("#right")
 
-	setInterval(function() {
-		$(carouselList).animate({marginLeft:-400},500,function() {
-			var firstItem = carouselList.find("li:first");
-			var lastItem = carouselList.find("li:last");
-			$(lastItem).after($(firstItem));
-			//$(carouselList).find("li:last").after($(carouselList).find("li:first"))
-			$(carouselList).css({marginLeft:0});
-		})
-	},5000); 
-
 	function slideLeft(){
 		$(carouselList).animate({marginLeft:-400},500,function() {
 			var firstItem = carouselList.find("li:first");
@@ -37,5 +27,9 @@ $(function(){
 	rightButton.click(function(){
 		slideRight();
 	}); 
+
+	setInterval(function() {
+		slideLeft();
+	},5000); 
 
 });  
